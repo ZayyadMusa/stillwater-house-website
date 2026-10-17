@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#3d2037">
+  <meta name="description" content="Stillwater House. A small, considered coastal retreat on Portugal’s Atlantic coast. Explore the rooms, find your rhythm, and plan your time away.">
+  <title>Stillwater House — A slower state of mind</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css?v=20261017-simple">
+  <link rel="stylesheet" href="experience.css?v=20261017-simple">
+  <script src="app.js?v=20261017-simple" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-waves" viewBox="0 0 64 44"><path d="M2 12c10-12 20 12 30 0S52 24 62 12M2 23c10-12 20 12 30 0S52 35 62 23M2 34c10-12 20 12 30 0s20 12 30 0"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 40 40"><circle cx="20" cy="20" r="7"/><path d="M20 2v5m0 26v5M2 20h5m26 0h5M7 7l4 4m18 18 4 4M7 33l4-4M29 11l4-4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  </defs></svg>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Stillwater House home">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-waves"/></svg>
+      <span>stillwater<span class="wordmark-small">H O U S E</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#the-house">The house</a><a href="#rooms">Stay with us</a><a href="#life">Life here</a><a href="#the-coast">The coast</a>
+    </nav>
+    <div class="header-actions">
+      <button class="button button-plum header-book" data-book>Plan your stay <svg aria-hidden="true"><use href="#i-diagonal"/></svg></button>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#the-house">The house</a><a href="#rooms">Stay with us</a><a href="#life">Life here</a><a href="#the-coast">The coast</a>
+      <button class="button button-plum" data-book>Plan your stay <svg aria-hidden="true"><use href="#i-diagonal"/></svg></button>
+      <p>A little further from the everyday.</p>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-heading" aria-roledescription="slideshow">
+      <div class="hero-photo-wrap">
+        <div class="hero-camera">
+          <figure class="hero-scene has-film is-active" data-scene-image="0" aria-hidden="false"><img src="assets/hero.webp" width="1672" height="941" alt="A limestone coastal house and still swimming pool overlooking the Atlantic at dusk" fetchpriority="high" decoding="async"><video class="hero-film" id="hero-film" muted playsinline preload="none" poster="assets/hero.webp" width="1440" height="810" aria-hidden="true" tabindex="-1" data-video-src="assets/hero-pool-loop.mp4"></video></figure>
+          <figure class="hero-scene" data-scene-image="1" aria-hidden="true"><img src="assets/suite.webp" width="1536" height="1024" alt="Sunlight across the Atlantic Suite, with open doors to a private pool and the sea" fetchpriority="low" decoding="async"></figure>
+          <figure class="hero-scene" data-scene-image="2" aria-hidden="true"><img src="assets/coast.webp" width="1536" height="1024" alt="Atlantic waves breaking along an open stretch of the Portuguese coast" fetchpriority="low" decoding="async"></figure>
+        </div>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-opening" aria-hidden="true"><span></span><span></span></div>
+      <div class="hero-horizon" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-location"><span></span> The Atlantic coast, Portugal</p>
+        <h1 id="hero-heading" tabindex="-1"><span class="hero-line"><span>Let the world</span></span><span class="hero-line"><span>wait a while.</span></span></h1>
+        <div class="hero-intro"><span class="hero-rule"></span><p id="hero-description">Salt on your skin. Space in your day.<br>A small coastal house to call your own.</p></div>
+        <a class="hero-cta" id="hero-cta" href="#the-house"><span id="hero-cta-label">Step inside the house</span><span class="hero-cta-circle"><svg aria-hidden="true"><use href="#i-diagonal"/></svg></span></a>
+      </div>
+      <button class="hero-detail" id="hero-detail" aria-label="Explore the Atlantic Suite"><span class="hero-detail-target"><svg aria-hidden="true"><use href="#i-plus"/></svg></span><span class="hero-detail-copy">A room with a view<span>The Atlantic Suite</span></span></button>
+      <div class="hero-bottom">
+        <div class="hero-stories" role="group" aria-label="Explore three sides of Stillwater House">
+          <button class="hero-story" data-hero-scene="0" aria-pressed="true"><span class="hero-story-title">The house</span><span class="hero-story-subtitle">A softer landing</span><span class="hero-story-progress" aria-hidden="true"></span></button>
+          <button class="hero-story" data-hero-scene="1" aria-pressed="false"><span class="hero-story-title">Your room</span><span class="hero-story-subtitle">Mornings, your way</span><span class="hero-story-progress" aria-hidden="true"></span></button>
+          <button class="hero-story" data-hero-scene="2" aria-pressed="false"><span class="hero-story-title">The coast</span><span class="hero-story-subtitle">A little more freedom</span><span class="hero-story-progress" aria-hidden="true"></span></button>
+        </div>
+      </div>
+      <p id="hero-scene-status" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+
+    <div class="booking-wrap">
+      <form class="booking-bar" id="quick-plan">
+        <div class="booking-intro"><svg aria-hidden="true"><use href="#i-sun"/></svg><span>Your time<br>away.</span></div>
+        <label class="booking-field"><span>Arrive</span><input id="quick-arrival" name="arrival" type="date" required aria-label="Arrival date"></label>
+        <label class="booking-field"><span>Depart</span><input id="quick-departure" name="departure" type="date" required aria-label="Departure date"></label>
+        <label class="booking-field booking-guests"><span>Guests</span><select id="quick-guests" name="guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option></select></label>
+        <button class="button button-lilac" type="submit">Plan my stay <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+
+    <section class="intro section-pad" id="the-house" aria-labelledby="house-heading">
+      <div class="intro-copy">
+        <p class="section-kicker reveal">Make yourself at home</p>
+        <h2 id="house-heading" class="reveal">A little closer<br>to doing nothing.</h2>
+        <div class="intro-prose reveal"><p>There’s a particular kind of quiet here. Pines in the breeze. Coffee on the terrace. The Atlantic, always within earshot.</p><p>Stillwater is a small coastal hideaway built around the things that make a day feel good: thoughtful rooms, generous tables, and plenty of space to just be.</p></div>
+        <a class="text-link reveal" href="#life">Meet the slower side of life <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <figure class="intro-figure image-reveal"><img src="assets/garden.webp" alt="Sunlight falling across a linen-covered bed and an open garden doorway" width="1536" height="1024" loading="lazy"><figcaption>A soft landing, a world away.</figcaption><div class="house-stamp" aria-hidden="true"><svg><use href="#i-waves"/></svg><span>Good days.<br>Slowly made.</span></div></figure>
+    </section>
+
+    <section class="rooms section-pad" id="rooms" aria-labelledby="rooms-heading">
+      <div class="section-heading"><div><p class="section-kicker reveal">Your own corner of the coast</p><h2 id="rooms-heading" class="reveal">Good mornings<br>start here.</h2></div><p class="section-aside reveal">Natural linen. Warm stone. Doors that open to the outdoors. Two ways to settle in, each with a little room to breathe.</p></div>
+      <div class="room-grid">
+        <article class="room-card room-card-atlantic">
+          <button class="room-image image-reveal" data-room="atlantic" aria-label="Explore the Atlantic Suite"><img src="assets/suite.webp" alt="Atlantic Suite with a king bed, private terrace, and ocean-facing plunge pool" width="1536" height="1024" loading="lazy"><span class="image-action">Take a look inside <svg aria-hidden="true"><use href="#i-diagonal"/></svg></span></button>
+          <div class="room-info"><div><h3><button data-room="atlantic">The Atlantic Suite</button></h3><p>Ocean outlook · Private plunge pool · 2–4 guests</p></div><p class="room-rate">From <strong>€390</strong><span>per night</span></p></div>
+        </article>
+        <article class="room-card room-card-garden">
+          <button class="room-image image-reveal" data-room="garden" aria-label="Explore the Garden Room"><img src="assets/garden.webp" alt="Garden Room with flax linen, a plum blanket, and a sunlit private courtyard" width="1536" height="1024" loading="lazy"><span class="image-action">Take a look inside <svg aria-hidden="true"><use href="#i-diagonal"/></svg></span></button>
+          <div class="room-info"><div><h3><button data-room="garden">The Garden Room</button></h3><p>Private courtyard · King bed · 1–2 guests</p></div><p class="room-rate">From <strong>€260</strong><span>per night</span></p></div>
+        </article>
+      </div>
+      <p class="rooms-note">Breakfast, long pool days, and a very warm welcome come with every room.</p>
+    </section>
+
+    <section class="life section-pad" id="life" aria-labelledby="life-heading">
+      <div class="section-heading"><div><p class="section-kicker reveal">The art of an unhurried day</p><h2 id="life-heading" class="reveal">Less on the agenda.<br>More to remember.</h2></div><svg class="life-sun" aria-hidden="true"><use href="#i-sun"/></svg></div>
+      <div class="rhythm-tabs" role="tablist" aria-label="A day at Stillwater House"><button id="tab-morning" role="tab" aria-controls="rhythm-panel" aria-selected="true" tabindex="0" data-rhythm="morning">The morning<span>Slow beginnings</span></button><button id="tab-afternoon" role="tab" aria-controls="rhythm-panel" aria-selected="false" tabindex="-1" data-rhythm="afternoon">The afternoon<span>Go where you feel</span></button><button id="tab-evening" role="tab" aria-controls="rhythm-panel" aria-selected="false" tabindex="-1" data-rhythm="evening">The evening<span>One more glass</span></button></div>
+      <div class="rhythm-panel" id="rhythm-panel" role="tabpanel" aria-labelledby="tab-morning" tabindex="0">
+        <div class="rhythm-image"><img id="rhythm-photo" src="assets/suite.webp" width="1536" height="1024" loading="lazy" alt="Morning light through the open doors of the Atlantic Suite"><span class="rhythm-photo-caption" id="rhythm-caption">No alarm required.</span></div>
+        <div class="rhythm-copy"><span class="rhythm-time" id="rhythm-time">08:30, or whenever</span><h3 id="rhythm-heading">First light.<br>Second coffee.</h3><p id="rhythm-description">Wake to the sound of the coast. There’s fresh bread, local fruit, and coffee worth lingering over. Breakfast goes at your pace.</p><button class="text-link" id="rhythm-action" data-menu>At the Stillwater table <svg aria-hidden="true"><use href="#i-arrow"/></svg></button><svg class="rhythm-waves" aria-hidden="true"><use href="#i-waves"/></svg></div>
+      </div>
+    </section>
+
+    <section class="coast" id="the-coast" aria-labelledby="coast-heading">
+      <div class="coast-image image-reveal"><img src="assets/coast.webp" width="1536" height="1024" loading="lazy" alt="Sea-green Atlantic waves along a quiet sandy Portuguese coast" data-scroll-photo></div>
+      <div class="coast-copy"><p class="section-kicker reveal">Out here, you can hear yourself think</p><h2 id="coast-heading" class="reveal">A little wild.<br>Completely freeing.</h2><p class="reveal">Follow the dune paths. Find your stretch of sand. Take the long way back. On Portugal’s Atlantic coast, the best plans tend to be the ones you leave open.</p><a class="text-link reveal" href="https://www.google.com/maps/search/Costa+Vicentina+Portugal/" target="_blank" rel="noopener noreferrer">Explore the Atlantic coast <svg aria-hidden="true"><use href="#i-diagonal"/></svg><span class="sr-only"> (opens in a new tab)</span></a></div>
+      <div class="coast-note"><svg aria-hidden="true"><use href="#i-waves"/></svg><span>For sandy feet<br>and clear heads.</span></div>
+    </section>
+
+    <section class="table-section section-pad" aria-labelledby="table-heading"><div class="table-copy"><p class="section-kicker reveal">Come hungry. Stay a while.</p><h2 class="reveal" id="table-heading">The best things<br>are shared.</h2><p class="reveal">Fish from the coast. Vegetables from the garden. Something good in your glass. Our table follows the season, with simple Portuguese cooking and room for a long conversation.</p><button class="text-link reveal" data-menu>See a taste of the menu <svg aria-hidden="true"><use href="#i-arrow"/></svg></button><span class="table-handnote" aria-hidden="true">There’s always room for one more.</span></div><figure class="table-photo image-reveal"><img src="assets/table.webp" alt="Grilled fish, wine, and candlelight on the sea-facing restaurant terrace" width="1536" height="1024" loading="lazy"><figcaption>Good food. A sea view. No rush.</figcaption></figure></section>
+
+    <section class="details-section section-pad" aria-labelledby="details-heading"><div><p class="section-kicker reveal">A few good things to know</p><h2 id="details-heading" class="reveal">Before you<br>make yourself<br>at home.</h2><p class="details-intro reveal">A little planning now.<br>A lot less thinking when you arrive.</p></div><div class="faq-list">
+      <details><summary>What’s included in a stay?<span class="faq-icon" aria-hidden="true"></span></summary><p>Breakfast, access to the shared pool and gardens, Wi-Fi, in-room coffee and tea, and help planning your days along the coast. The Atlantic Suite also has its own plunge pool.</p></details>
+      <details><summary>Can I bring the family?<span class="faq-icon" aria-hidden="true"></span></summary><p>The Atlantic Suite sleeps up to four guests with a king bed and a separate daybed arrangement. Garden Rooms sleep up to two. Let us know everyone’s ages in your stay plan so the room setup can be discussed.</p></details>
+      <details><summary>What are check-in and check-out times?<span class="faq-icon" aria-hidden="true"></span></summary><p>Check-in begins at 15:00 and check-out is by 11:00. If you expect an early arrival or a late departure, include a note in your stay plan. Timing depends on the room schedule.</p></details>
+      <details><summary>How does planning a stay work?<span class="faq-icon" aria-hidden="true"></span></summary><p>Choose dates, a room, and your number of guests to create a personal stay plan with an indicative price. You can download the plan to keep or share. It is an enquiry brief, not a confirmed reservation; availability and final terms must be agreed separately.</p></details>
+      <details><summary>When is the best time to visit?<span class="faq-icon" aria-hidden="true"></span></summary><p>Think beach days in summer, long walks and outdoor lunches in spring and autumn, and quieter days around the house in winter. The Atlantic sets its own pace, so bring a light layer in every season.</p></details>
+    </div></section>
+
+    <section class="final-invitation" aria-labelledby="invite-heading"><svg class="invite-wave" aria-hidden="true"><use href="#i-waves"/></svg><p class="section-kicker reveal">Leave a little space for yourself</p><h2 id="invite-heading" class="reveal">Your slow days<br>are waiting.</h2><button class="button button-plum reveal" data-book>Let’s plan your stay <svg aria-hidden="true"><use href="#i-diagonal"/></svg></button><p class="invite-footnote">The coast will take care of the rest.</p></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="wordmark footer-wordmark" href="#top" aria-label="Stillwater House back to top"><svg class="brand-mark" aria-hidden="true"><use href="#i-waves"/></svg><span>stillwater<span class="wordmark-small">H O U S E</span></span></a><p>A little further from the everyday.<br>The Atlantic coast, Portugal.</p><nav aria-label="Footer navigation"><a href="#rooms">Find your room</a><a href="#life">Find your rhythm</a><button data-book>Plan your stay</button></nav><a class="back-top" href="#top" aria-label="Back to top"><span>Back to top</span><span class="back-top-icon"><svg aria-hidden="true"><use href="#i-down"/></svg></span></a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Stillwater House</span><span>Made for a slower kind of stay.</span><button data-privacy>Privacy &amp; site information</button></div></footer>
+
+  <dialog class="room-dialog" id="room-dialog" aria-labelledby="room-dialog-title"><button class="dialog-close" data-close aria-label="Close room details"><svg aria-hidden="true"><use href="#i-close"/></svg></button><div class="room-dialog-photo"><img id="room-dialog-image" src="assets/suite.webp" alt="" width="1536" height="1024"><div class="gallery-controls"><button id="gallery-prev" aria-label="Previous room photograph"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><span id="gallery-count" aria-live="polite">1 / 2</span><button id="gallery-next" aria-label="Next room photograph"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div><div class="room-dialog-copy"><p class="section-kicker">Make it your own</p><h2 id="room-dialog-title">The Atlantic Suite</h2><p id="room-dialog-description"></p><ul class="amenities" id="room-dialog-amenities"></ul><div class="room-dialog-bottom"><p id="room-dialog-price"></p><button class="button button-plum" id="room-choose">Plan a stay here <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div></dialog>
+
+  <dialog class="planner-dialog" id="planner-dialog" aria-labelledby="planner-title"><button class="dialog-close" data-close aria-label="Close stay planner"><svg aria-hidden="true"><use href="#i-close"/></svg></button><div class="planner-visual"><img src="assets/hero.webp" width="1672" height="941" alt="Stillwater House illuminated at dusk"><div><svg aria-hidden="true"><use href="#i-waves"/></svg><p>A little time<br>just for you.</p></div></div><div class="planner-content"><p class="section-kicker">Your next good idea</p><h2 id="planner-title">Let’s make room<br>for a little less.</h2><p class="planner-lead">Choose your dates. Find your room.<br>Leave the rest for later.</p><form id="planner-form">
+      <div class="form-row"><label>Arrive<input type="date" name="arrival" id="plan-arrival" required></label><label>Depart<input type="date" name="departure" id="plan-departure" required></label></div>
+      <div class="form-row"><label>Your room<select name="room" id="plan-room"><option value="garden">Garden Room</option><option value="atlantic">Atlantic Suite</option></select></label><label>Guests<select name="guests" id="plan-guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option></select></label></div>
+      <label>A note for the house <span class="optional">(optional)</span><textarea name="note" id="plan-note" rows="2" maxlength="600" placeholder="A special occasion, room preferences, or a question…"></textarea></label>
+      <p class="form-error" id="plan-error" role="alert" hidden></p><div class="price-summary" aria-live="polite"><div><span id="estimate-detail">3 nights · 2 guests</span><span id="estimate-room">The Garden Room</span></div><strong id="estimate-total">€780</strong></div><p class="price-note">Indicative room total, including breakfast. Additional guests in the Atlantic Suite are €45 each per night. Availability, local taxes, and final terms are confirmed separately.</p><button class="button button-plum planner-submit" type="submit">Create my stay plan <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></form><div id="plan-success" hidden><div class="success-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></div><h3>Your slow days,<br>all written down.</h3><p id="plan-success-summary"></p><div class="success-actions"><button class="button button-plum" id="download-plan">Download stay plan <svg aria-hidden="true"><use href="#i-down"/></svg></button><button class="text-link" id="download-calendar">Save dates to calendar <svg aria-hidden="true"><use href="#i-plus"/></svg></button><button class="text-link" id="edit-plan">Adjust my plan</button></div><p class="price-note">Your plan is saved on this device. Nothing has been sent, charged, or reserved.</p></div></div></dialog>
+
+  <dialog class="info-dialog" id="menu-dialog" aria-labelledby="menu-title"><button class="dialog-close" data-close aria-label="Close house menu"><svg aria-hidden="true"><use href="#i-close"/></svg></button><p class="section-kicker">At the Stillwater table</p><h2 id="menu-title">A taste of<br>the coast.</h2><p class="menu-intro">A sample of the things we love to cook.<br>The menu follows the market and the season.</p><div class="menu-course"><h3>To begin</h3><p>Warm sourdough, local olive oil, sea salt<br>Tomatoes, peaches, fresh sheep’s cheese</p></div><div class="menu-course"><h3>From the coast</h3><p>Grilled catch of the day, lemon, garden herbs<br>Roasted aubergine, white beans, smoked almonds</p></div><div class="menu-course"><h3>A sweet finish</h3><p>Olive oil cake, citrus, thick cream<br>Seasonal fruit, very good ice cream</p></div><p class="menu-note">Vegetarian and dietary preferences are welcome. Add a note to your stay plan.</p><button class="button button-plum" id="menu-plan">Make a little time for this <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
+
+  <dialog class="info-dialog privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title"><button class="dialog-close" data-close aria-label="Close privacy information"><svg aria-hidden="true"><use href="#i-close"/></svg></button><p class="section-kicker">A little clarity</p><h2 id="privacy-title">Your time.<br>Your information.</h2><p>This site uses no analytics or advertising cookies. Your stay plan may be saved in your browser’s local storage so you can return to it. Downloads are created on your device; no form information is transmitted.</p><p>Stillwater House is an original hospitality concept. The property, imagery, room descriptions, and indicative rates are illustrative. This site does not take payments or confirm reservations.</p><button class="button button-plum" id="clear-plan">Clear my saved plan <svg aria-hidden="true"><use href="#i-close"/></svg></button><p class="privacy-status" id="privacy-status" role="status"></p></dialog>
+  <noscript><div class="noscript-note">You can explore the house below. Enable JavaScript to open room details and create a stay plan.</div></noscript>
+</body>
+</html>
